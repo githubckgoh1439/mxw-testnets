@@ -1,0 +1,682 @@
+{
+  "genesis_time": "2020-02-14T03:36:54.59321Z",
+  "chain_id": "maxonrow-chain",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "0",
+        "sig_verify_cost_ed25519": "0",
+        "sig_verify_cost_secp256k1": "0"
+      },
+      "accounts": null
+    },
+    "accounts": [
+      {
+        "address": "mxw12eeyelq8s586207es9vshzkqrrg2vxgff7rq3s",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1gh5hxxsmlcuxv66gnv472rpeywmcp060ykxklz",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1ah3cgwf4xp73053cc5lfel75q5gtlt8eh8up0w",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1vpkyz78mfwu543aj8uss4vnjwxfcdfeclhjkuk",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw14llaky7q8hst8nc2lf3t9vefs4e0dw52qv26dm",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1njynx6yhmk89dr0edahtzad4rxe3gfk4a8altp",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1cep2grzfjvr3skujtspjgwjg62tkjx4q2xuvq3",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1dckntvvsjtuw4p4nzkdjakxfa627cgh6yxqnax",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1wkhzl0u78ghfqz7nyztsqzcatxx76fyhx49as2",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1vpjqfchrnnungzgyfzcn0unqzgvkxw53lfwzlv",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw15jtx8cpc2lg27qllf43eargmcspym2u3qmu28u",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1pnmctqgsv2l4d99c4pkq3n7sclzzc694m94c2x",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1pfvzfhw392eshwu7nhptwgqdkz6pcw9nm84qnc",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1jyhvpx9dx8rvxlg3h3gh3lt4f7vhaw8aemjd8z",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1qnny7mkwkh0cfd8wykpvlt8rflmx8atgd6wh07",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1yk5q688ap9d2u7a39zh53uuugxnaplehcj5l5l",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1vfx6t3j3dqklh9syednk5f96efettan4jklvpk",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1r659q674wtjmf70jn73t6j0wtlmvlzde0nwzuq",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1hrjjsxjh69mhvfdlh4rlkwa0fps6vgweugjnng",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1gtm5lpt920hcgag6wwcsh2k0yuhkanvgat7vae",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1w59zfnch2u0v7ch08u5hf7vu350np2x2gjstjq",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1wqh23t42e3ncfajc30wtd04ag9tn8wq22rt5nr",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw13mqhsqjayp7xeez8dr6cjgne8ck9g540xyllcy",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw160nd6svp63u042q64aczrwpuw5mvrtaenp20f8",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1678z28ztqe7ql2lvjujfs9nvwxza637c0fnzqe",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw140kvdtmcpj658jxkvdwgpsfh8ldugf6m4tm5yh",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1slkp6g0quywpf0m7dx8lc6wwg6dd0c2yzrzr5d",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1xtpn9z7a5ryuafwmthmcwey8cvrd2yhcntadlp",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1gpasvvu5y7tp24hhd4p60mz4vnu2lzksu68cgs",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      },
+      {
+        "address": "mxw1v92l66yy4stywuaznmec0t80s5au85kv3revcv",
+        "coins": [
+          {
+            "denom": "cin",
+            "amount": "1000000000000000000000"
+          }
+        ],
+        "public_key": "",
+        "account_number": 0,
+        "sequence": 0
+      }
+    ],
+    "bank": {
+      "send_enabled": true
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 100,
+        "max_entries": 7,
+        "bond_denom": "cin"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "distribution": {
+      "fee_pool": {
+        "community_pool": null
+      },
+      "community_tax": "0.000000000000000000",
+      "base_proposer_reward": "0.000000000000000000",
+      "bonus_proposer_reward": "0.000000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": null,
+      "previous_proposer": "",
+      "outstanding_rewards": null,
+      "validator_accumulated_commissions": null,
+      "validator_historical_rewards": null,
+      "validator_current_rewards": null,
+      "delegator_starting_infos": null,
+      "validator_slash_events": null
+    },
+    "kyc": {
+      "authorised_addresses": [
+        "mxw12eeyelq8s586207es9vshzkqrrg2vxgff7rq3s",
+        "mxw1gh5hxxsmlcuxv66gnv472rpeywmcp060ykxklz",
+        "mxw1ah3cgwf4xp73053cc5lfel75q5gtlt8eh8up0w",
+        "mxw1vpkyz78mfwu543aj8uss4vnjwxfcdfeclhjkuk",
+        "mxw14llaky7q8hst8nc2lf3t9vefs4e0dw52qv26dm",
+        "mxw1njynx6yhmk89dr0edahtzad4rxe3gfk4a8altp",
+        "mxw1cep2grzfjvr3skujtspjgwjg62tkjx4q2xuvq3",
+        "mxw1dckntvvsjtuw4p4nzkdjakxfa627cgh6yxqnax",
+        "mxw1wkhzl0u78ghfqz7nyztsqzcatxx76fyhx49as2",
+        "mxw1vpjqfchrnnungzgyfzcn0unqzgvkxw53lfwzlv",
+        "mxw15jtx8cpc2lg27qllf43eargmcspym2u3qmu28u",
+        "mxw1pnmctqgsv2l4d99c4pkq3n7sclzzc694m94c2x",
+        "mxw1pfvzfhw392eshwu7nhptwgqdkz6pcw9nm84qnc",
+        "mxw1jyhvpx9dx8rvxlg3h3gh3lt4f7vhaw8aemjd8z",
+        "mxw1qnny7mkwkh0cfd8wykpvlt8rflmx8atgd6wh07",
+        "mxw1yk5q688ap9d2u7a39zh53uuugxnaplehcj5l5l",
+        "mxw1vfx6t3j3dqklh9syednk5f96efettan4jklvpk",
+        "mxw1r659q674wtjmf70jn73t6j0wtlmvlzde0nwzuq",
+        "mxw1hrjjsxjh69mhvfdlh4rlkwa0fps6vgweugjnng",
+        "mxw1gtm5lpt920hcgag6wwcsh2k0yuhkanvgat7vae",
+        "mxw1w59zfnch2u0v7ch08u5hf7vu350np2x2gjstjq",
+        "mxw1wqh23t42e3ncfajc30wtd04ag9tn8wq22rt5nr",
+        "mxw13mqhsqjayp7xeez8dr6cjgne8ck9g540xyllcy",
+        "mxw160nd6svp63u042q64aczrwpuw5mvrtaenp20f8",
+        "mxw1678z28ztqe7ql2lvjujfs9nvwxza637c0fnzqe",
+        "mxw140kvdtmcpj658jxkvdwgpsfh8ldugf6m4tm5yh",
+        "mxw1slkp6g0quywpf0m7dx8lc6wwg6dd0c2yzrzr5d",
+        "mxw1xtpn9z7a5ryuafwmthmcwey8cvrd2yhcntadlp",
+        "mxw1gpasvvu5y7tp24hhd4p60mz4vnu2lzksu68cgs",
+        "mxw1v92l66yy4stywuaznmec0t80s5au85kv3revcv"
+      ],
+      "issuer_addresses": [
+        "mxw12eeyelq8s586207es9vshzkqrrg2vxgff7rq3s",
+        "mxw1gh5hxxsmlcuxv66gnv472rpeywmcp060ykxklz",
+        "mxw1ah3cgwf4xp73053cc5lfel75q5gtlt8eh8up0w",
+        "mxw1vpkyz78mfwu543aj8uss4vnjwxfcdfeclhjkuk"
+      ],
+      "provider_addresses": [
+        "mxw14llaky7q8hst8nc2lf3t9vefs4e0dw52qv26dm",
+        "mxw1njynx6yhmk89dr0edahtzad4rxe3gfk4a8altp",
+        "mxw1cep2grzfjvr3skujtspjgwjg62tkjx4q2xuvq3"
+      ],
+      "whitelisted_addresses": [
+        "mxw12eeyelq8s586207es9vshzkqrrg2vxgff7rq3s",
+        "mxw1gh5hxxsmlcuxv66gnv472rpeywmcp060ykxklz",
+        "mxw1ah3cgwf4xp73053cc5lfel75q5gtlt8eh8up0w",
+        "mxw1vpkyz78mfwu543aj8uss4vnjwxfcdfeclhjkuk",
+        "mxw14llaky7q8hst8nc2lf3t9vefs4e0dw52qv26dm",
+        "mxw1njynx6yhmk89dr0edahtzad4rxe3gfk4a8altp",
+        "mxw1cep2grzfjvr3skujtspjgwjg62tkjx4q2xuvq3",
+        "mxw1dckntvvsjtuw4p4nzkdjakxfa627cgh6yxqnax",
+        "mxw1wkhzl0u78ghfqz7nyztsqzcatxx76fyhx49as2",
+        "mxw1vpjqfchrnnungzgyfzcn0unqzgvkxw53lfwzlv",
+        "mxw15jtx8cpc2lg27qllf43eargmcspym2u3qmu28u",
+        "mxw1pnmctqgsv2l4d99c4pkq3n7sclzzc694m94c2x",
+        "mxw1pfvzfhw392eshwu7nhptwgqdkz6pcw9nm84qnc",
+        "mxw1jyhvpx9dx8rvxlg3h3gh3lt4f7vhaw8aemjd8z",
+        "mxw1qnny7mkwkh0cfd8wykpvlt8rflmx8atgd6wh07",
+        "mxw1yk5q688ap9d2u7a39zh53uuugxnaplehcj5l5l",
+        "mxw1vfx6t3j3dqklh9syednk5f96efettan4jklvpk",
+        "mxw1r659q674wtjmf70jn73t6j0wtlmvlzde0nwzuq",
+        "mxw1hrjjsxjh69mhvfdlh4rlkwa0fps6vgweugjnng",
+        "mxw1gtm5lpt920hcgag6wwcsh2k0yuhkanvgat7vae",
+        "mxw1w59zfnch2u0v7ch08u5hf7vu350np2x2gjstjq",
+        "mxw1wqh23t42e3ncfajc30wtd04ag9tn8wq22rt5nr",
+        "mxw13mqhsqjayp7xeez8dr6cjgne8ck9g540xyllcy",
+        "mxw160nd6svp63u042q64aczrwpuw5mvrtaenp20f8",
+        "mxw1678z28ztqe7ql2lvjujfs9nvwxza637c0fnzqe",
+        "mxw140kvdtmcpj658jxkvdwgpsfh8ldugf6m4tm5yh",
+        "mxw1slkp6g0quywpf0m7dx8lc6wwg6dd0c2yzrzr5d",
+        "mxw1xtpn9z7a5ryuafwmthmcwey8cvrd2yhcntadlp",
+        "mxw1gpasvvu5y7tp24hhd4p60mz4vnu2lzksu68cgs",
+        "mxw1v92l66yy4stywuaznmec0t80s5au85kv3revcv"
+      ]
+    },
+    "token": {
+      "authorised_addresses": [
+        "mxw1jyhvpx9dx8rvxlg3h3gh3lt4f7vhaw8aemjd8z",
+        "mxw1qnny7mkwkh0cfd8wykpvlt8rflmx8atgd6wh07",
+        "mxw1yk5q688ap9d2u7a39zh53uuugxnaplehcj5l5l"
+      ],
+      "issuer_addresses": [
+        "mxw1vfx6t3j3dqklh9syednk5f96efettan4jklvpk",
+        "mxw1r659q674wtjmf70jn73t6j0wtlmvlzde0nwzuq",
+        "mxw1hrjjsxjh69mhvfdlh4rlkwa0fps6vgweugjnng"
+      ],
+      "provider_addresses": [
+        "mxw1gtm5lpt920hcgag6wwcsh2k0yuhkanvgat7vae",
+        "mxw1w59zfnch2u0v7ch08u5hf7vu350np2x2gjstjq",
+        "mxw1wqh23t42e3ncfajc30wtd04ag9tn8wq22rt5nr"
+      ]
+    },
+    "nameservice": {
+      "authorised_addresses": [
+        "mxw1cep2grzfjvr3skujtspjgwjg62tkjx4q2xuvq3",
+        "mxw1dckntvvsjtuw4p4nzkdjakxfa627cgh6yxqnax",
+        "mxw1wkhzl0u78ghfqz7nyztsqzcatxx76fyhx49as2",
+        "mxw1vpjqfchrnnungzgyfzcn0unqzgvkxw53lfwzlv"
+      ],
+      "issuer_addresses": [
+        "mxw15jtx8cpc2lg27qllf43eargmcspym2u3qmu28u",
+        "mxw1pnmctqgsv2l4d99c4pkq3n7sclzzc694m94c2x"
+      ],
+      "provider_addresses": [
+        "mxw1pfvzfhw392eshwu7nhptwgqdkz6pcw9nm84qnc",
+        "mxw1jyhvpx9dx8rvxlg3h3gh3lt4f7vhaw8aemjd8z"
+      ],
+      "genesis_alias_owners": null
+    },
+    "fee": {
+      "fee_settings": [
+        {
+          "name": "default",
+          "min": [
+            {
+              "denom": "cin",
+              "amount": "10000000000000000"
+            }
+          ],
+          "max": [
+            {
+              "denom": "cin",
+              "amount": "1000000000000000000000000"
+            }
+          ],
+          "percentage": "0.05"
+        },
+        {
+          "name": "zero",
+          "min": [
+            {
+              "denom": "cin",
+              "amount": "0"
+            }
+          ],
+          "max": [
+            {
+              "denom": "cin",
+              "amount": "0"
+            }
+          ],
+          "percentage": "0"
+        }
+      ],
+      "authorised_addresses": [
+        "mxw1wqh23t42e3ncfajc30wtd04ag9tn8wq22rt5nr",
+        "mxw13mqhsqjayp7xeez8dr6cjgne8ck9g540xyllcy",
+        "mxw160nd6svp63u042q64aczrwpuw5mvrtaenp20f8",
+        "mxw1678z28ztqe7ql2lvjujfs9nvwxza637c0fnzqe",
+        "mxw140kvdtmcpj658jxkvdwgpsfh8ldugf6m4tm5yh"
+      ],
+      "multiplier": "1",
+      "assigned_fee": [
+        {
+          "name": "zero",
+          "msg_type": "kyc-whitelist"
+        },
+        {
+          "name": "zero",
+          "msg_type": "kyc-whitelist"
+        },
+        {
+          "name": "zero",
+          "msg_type": "kyc-revokeWhitelist"
+        },
+        {
+          "name": "zero",
+          "msg_type": "fee-createFeeSetting"
+        },
+        {
+          "name": "zero",
+          "msg_type": "fee-createTxFeeSetting"
+        },
+        {
+          "name": "zero",
+          "msg_type": "fee-createMultiplier"
+        },
+        {
+          "name": "zero",
+          "msg_type": "fee-createAccFeeSetting"
+        }
+      ]
+    },
+    "maintenance": {
+      "maintainers": [
+        "mxw1wkhzl0u78ghfqz7nyztsqzcatxx76fyhx49as2",
+        "mxw1vpjqfchrnnungzgyfzcn0unqzgvkxw53lfwzlv",
+        "mxw15jtx8cpc2lg27qllf43eargmcspym2u3qmu28u",
+        "mxw1pnmctqgsv2l4d99c4pkq3n7sclzzc694m94c2x",
+        "mxw1pfvzfhw392eshwu7nhptwgqdkz6pcw9nm84qnc",
+        "mxw1jyhvpx9dx8rvxlg3h3gh3lt4f7vhaw8aemjd8z",
+        "mxw1qnny7mkwkh0cfd8wykpvlt8rflmx8atgd6wh07"
+      ],
+      "starting_proposal_id": "1",
+      "validator_set": [
+        "mxwvalconspub1zcjduepqufre65vfxac4tthw7z70ar2wpys4tcc3vsn9q4yjefup2f32wt5qwzv28j"
+      ]
+    },
+    "gentxs": [
+      {
+        "type": "cosmos-sdk/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "gohck.local",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "mxw12eeyelq8s586207es9vshzkqrrg2vxgff7rq3s",
+                "validator_address": "mxwvaloper12eeyelq8s586207es9vshzkqrrg2vxgf33u7ut",
+                "pubkey": "mxwvalconspub1zcjduepqufre65vfxac4tthw7z70ar2wpys4tcc3vsn9q4yjefup2f32wt5qwzv28j",
+                "value": {
+                  "denom": "cin",
+                  "amount": "100000000000000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": [
+              {
+                "denom": "cin",
+                "amount": "0"
+              }
+            ],
+            "gas": "0"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "Amajf13BY5loI5j04CzxlexJOSyxiuXm23fYLUDeOz7u"
+              },
+              "signature": "M2MER0O6Ofd7NKNToR+aSB9HGXCATiM+P7TDQqZ+AJRpcnWCHfNgWrUQzbRaOWFGxC+hrZOQfQw3bx5eqXVaFA=="
+            }
+          ],
+          "memo": "9e328b68690ad433ebcd51e83c38df12530716d3@192.168.20.42:26656"
+        }
+      }
+    ]
+  }
+}
