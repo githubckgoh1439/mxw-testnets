@@ -1,25 +1,50 @@
 
 
-# Maxonrow Localnet 
+# Install Maxonrow Local Network 
 This guide will go through the steps required to get a Full Node up and running on MAXONROW's local network.<br/>
 It also include the steps for running a Single Node that connect the Full Node.
 
 ** These steps are to be run on an **Ubuntu 18.04** or higher version and logged in as **root** user.
-  
+
+
+## From Source
+
+You'll need `go` [installed](https://golang.org/doc/install) and the required
+environment variables set, which can be done with the following commands:
 
 ```sh
+# Set the GOPATH variables
+echo export GOPATH=\"\$HOME/go\" >> ~/.bash_profile
 
-# Go to home directory
-cd $HOME
+# Set the PATH variables along with GOPATH
+echo export PATH=\"\$PATH:\$GOPATH/bin\" >> ~/.bash_profile
 
-# Clone the project repository
-git clone https://github.com/maxonrow/maxonrow-go
+# Set the GO111MODULE variables
+echo export GO111MODULE=on >> ~/.bash_profile
+```
 
-# Change to the project directory.
+### Get Source Code
+
+```sh
+# Make a new directory for this Maxonrow Project
+mkdir -p $GOPATH/src/github.com/maxonrow/
+
+# Go to maxonrow directory
+cd $GOPATH/src/github.com/maxonrow/
+
+# Clone maxonrow-go source 
+git clone https://github.com/maxonrow/maxonrow-go.git
+
+# Go to maxonrow-go directory
 cd maxonrow-go
 
-# Checkout master branch.
+# Checkout a particular branch.
 git checkout master 
+```
+
+### Get Tools & Dependencies, Compile, Run
+
+```sh
 
 # Get all the dependecies and build project the binary
 make all
@@ -41,7 +66,7 @@ Open browser and enter http://localhost:26657/<br/><br/>
 ** This means that Full Node already up and running !!!
 
 
-### Next step is to setup a Single Node that will synch with the Fullnode.
+### Next step is to setup a Single Node that will synch with the Full Node.
 
 ```sh
 

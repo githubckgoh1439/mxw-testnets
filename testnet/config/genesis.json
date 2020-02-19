@@ -1,0 +1,339 @@
+{
+    "genesis_time": "2019-07-24T10:00:00.00000Z",
+    "chain_id": "alloys",
+    "consensus_params": {
+        "block": {
+            "max_bytes": "22020096",
+            "max_gas": "-1",
+            "time_iota_ms": "1"
+        },
+        "evidence": {
+            "max_age": "100000"
+        },
+        "validator": {
+            "pub_key_types": [
+                "ed25519"
+            ]
+        }
+    },
+    "app_hash": "",
+    "app_state": {
+        "chain_parameters": {
+            "block_reward": {
+                "denom": "cin",
+                "amount": "1000000000000000000"
+            },
+            "fee": {
+                "denom": "cin",
+                "amount": "1000000000000000000"
+            }
+        },
+        "accounts": [
+            {
+                "address": "mxw15dfqcp3pu2khnl0etf6e35sucjmye5hzpj8dkr",
+                "coins": [
+                    {
+                        "denom": "cin",
+                        "amount": "4664599900000000000000000000"
+                    }
+                ],
+                "public_key": null,
+                "account_number": "0",
+                "sequence": "0"
+            },
+            {
+                "address": "mxw1yv9wnynrsdhyvlvq2nuv27vpnj2unstmv5datz",
+                "coins": [
+                    {
+                        "denom": "cin",
+                        "amount": "2799000000000000000000000000"
+                    }
+                ],
+                "public_key": null,
+                "account_number": "0",
+                "sequence": "0"
+            },
+            {
+                "address": "mxw1let5ryu7jnzq3a5jt8t668pue08z0xq4ml8gwd",
+                "coins": [
+                    {
+                        "denom": "cin",
+                        "amount": "933000000000000000000000000"
+                    }
+                ],
+                "public_key": null,
+                "account_number": "0",
+                "sequence": "0"
+            },
+            {
+                "address": "mxw12teyeaf3heyn70jp026de5c3u3ete4k73n5frx",
+                "coins": [
+                    {
+                        "denom": "cin",
+                        "amount": "466500000000000000000000000"
+                    }
+                ],
+                "public_key": null,
+                "account_number": "0",
+                "sequence": "0"
+            },
+            {
+                "address": "mxw19k9hmqegwxvcl3sn9sjkm56dg89jghrpuakjaw",
+                "coins": [
+                    {
+                        "denom": "cin",
+                        "amount": "466500000000000000000000000"
+                    }
+                ],
+                "public_key": null,
+                "account_number": "0",
+                "sequence": "0"
+            },
+            {
+                "address": "mxw1gsh3wnxyj327d4rn257fsnfsn67uj40zwmy55a",
+                "coins": [
+                    {
+                        "denom": "cin",
+                        "amount": "100000000000000000000"
+                    }
+                ],
+                "public_key": null,
+                "account_number": "0",
+                "sequence": "0"
+            }
+        ],
+        "auth": {
+            "collected_fees": null,
+            "params": {
+                "max_memo_characters": "256",
+                "tx_sig_limit": "7",
+                "tx_size_cost_per_byte": "0",
+                "sig_verify_cost_ed25519": "0",
+                "sig_verify_cost_secp256k1": "0"
+            }
+        },
+        "bank": {
+            "send_enabled": true
+        },
+        "staking": {
+            "pool": {
+                "not_bonded_tokens": "1000000000000000000000000",
+                "bonded_tokens": "0"
+            },
+            "params": {
+                "unbonding_time": "25920000000000",
+                "max_validators": 100,
+                "bond_denom": "cin"
+            },
+            "last_total_power": "0",
+            "last_validator_powers": null,
+            "validators": null,
+            "bonds": null,
+            "unbonding_delegations": null,
+            "redelegations": null,
+            "exported": false
+        },
+        "slashing": {
+            "params": {
+                "max_evidence_age": "120000000000",
+                "signed_blocks_window": "500",
+                "min_signed_per_window": "0.500000000000000000",
+                "downtime_jail_duration": "600000000000",
+                "slash_fraction_double_sign": "0.050000000000000000",
+                "slash_fraction_downtime": "0.000000000000000000"
+            },
+            "signing_infos": {},
+            "missed_blocks": {},
+            "slashing_periods": null
+        },
+        "distribution": {
+            "fee_pool": {
+                "val_accum": {
+                    "update_height": "0",
+                    "accum": "0.0000000000"
+                },
+                "val_pool": null,
+                "community_pool": null
+            },
+            "community_tax": "0.0000000000",
+            "base_proposer_reward": "0.0000000000",
+            "bonus_proposer_reward": "0.0000000000",
+            "validator_dist_infos": null,
+            "delegator_dist_infos": null,
+            "delegator_withdraw_infos": null,
+            "previous_proposer": ""
+        },
+        "kyc": {
+            "authorised_addresses": [
+                "mxw1ff32lgz0pffjgxvlgg38jz9p7pgunhkvnhx54q"
+            ],
+            "issuer_addresses": [
+                "mxw163gpxlqtgcexpal0wuth9zx789mq0qfsctjnyx"
+            ],
+            "provider_addresses": [
+                "mxw1we5y4ckamtdrhuf43phmg0x7z93qhh0qkfmk9p"
+            ],
+            "whitelisted_addresses": [
+                "mxw1we5y4ckamtdrhuf43phmg0x7z93qhh0qkfmk9p",
+                "mxw163gpxlqtgcexpal0wuth9zx789mq0qfsctjnyx",
+                "mxw1qgwzdxf66tp5mjpkpfe593nvsst7qzfxzqq73d",
+                "mxw1nj5xdz6ychva2mjr7dnzp36tsfzefphadq230m",
+                "mxw1dww3nwtpvfcq2h94rmlftwywy7skc48yaku27p",
+                "mxw1wu3wje2jnzsumsn73pcv8ysy2gc0ukdq9jwsp4",
+                "mxw142zprmc3tgr4cxsv8uqpdnuks2n68zkqg3csmm",
+                "mxw1mxtpz2t7vu7x9lvrzn0t2r549zkslus5885yd8",
+                "mxw16f6dsgrxdk6cfpm9kyz9qdp7v0k2azlrkj95vu",
+                "mxw19mjrf0sxy63evq634u8ylj889c8qf6u6my6qz7",
+                "mxw1ksaecnvy58m2ey8hmmd9rdkdv5876ahg3p4we7",
+                "mxw15dfqcp3pu2khnl0etf6e35sucjmye5hzpj8dkr",
+                "mxw1gsh3wnxyj327d4rn257fsnfsn67uj40zwmy55a",
+                "mxw1ur64py537vfuk5runnpedshppx8plu2cknwasp",
+                "mxw1jrdle8ccjk2pc9crr4veez7d3lzm2f6qzxwgyl",
+                "mxw13cf520tutm270suvugjgf7at535rq6nw9h7nvp",
+                "mxw19k9hmqegwxvcl3sn9sjkm56dg89jghrpuakjaw",
+                "mxw12teyeaf3heyn70jp026de5c3u3ete4k73n5frx",
+                "mxw1let5ryu7jnzq3a5jt8t668pue08z0xq4ml8gwd",
+                "mxw1yv9wnynrsdhyvlvq2nuv27vpnj2unstmv5datz",
+                "mxw1ze4de3r5j2hdvrvrp0p4wvks0vqamqdfqwa6r4",
+                "mxw1zwyvz2h359jsxug0kzt3hh9x7ck5g0wz5jq63y"
+            ]
+        },
+        "token": {
+            "authorised_addresses": [
+                "mxw1qgwzdxf66tp5mjpkpfe593nvsst7qzfxzqq73d"
+            ],
+            "issuer_addresses": [
+                "mxw1nj5xdz6ychva2mjr7dnzp36tsfzefphadq230m"
+            ],
+            "provider_addresses": [
+                "mxw1dww3nwtpvfcq2h94rmlftwywy7skc48yaku27p"
+            ]
+        },
+        "nameservice": {
+            "authorised_addresses": [
+                "mxw1wu3wje2jnzsumsn73pcv8ysy2gc0ukdq9jwsp4"
+            ],
+            "issuer_addresses": [
+                "mxw142zprmc3tgr4cxsv8uqpdnuks2n68zkqg3csmm"
+            ],
+            "provider_addresses": [
+                "mxw1mxtpz2t7vu7x9lvrzn0t2r549zkslus5885yd8"
+            ],
+            "genesis_alias_owners": [
+                {
+                  "alias": "Maxonrow_Foundation",
+                  "owner": "mxw15dfqcp3pu2khnl0etf6e35sucjmye5hzpj8dkr"
+                },
+                {
+                  "alias": "Maxonrow_Institution",
+                  "owner": "mxw1yv9wnynrsdhyvlvq2nuv27vpnj2unstmv5datz"
+                },
+                {
+                  "alias": "Maxonrow_AirDrop",
+                  "owner": "mxw1let5ryu7jnzq3a5jt8t668pue08z0xq4ml8gwd"
+                },
+                {
+                  "alias": "Maxonrow_Tech_Support",
+                  "owner": "mxw12teyeaf3heyn70jp026de5c3u3ete4k73n5frx"
+                },
+                {
+                  "alias": "MAX-Wallet_AirDrop",
+                  "owner": "mxw13cf520tutm270suvugjgf7at535rq6nw9h7nvp"
+                },
+                {
+                   "alias": "MXW_Token_Distribution",
+                   "owner": "mxw1zwyvz2h359jsxug0kzt3hh9x7ck5g0wz5jq63y"
+                }
+            ]
+        },
+        "fee": {
+            "fee_settings": [
+                {
+                  "name": "default",
+                  "min": [
+                    {
+                      "denom": "cin",
+                      "amount": "10000000000000000"
+                    }
+                  ],
+                  "max": [
+                    {
+                      "denom": "cin",
+                      "amount": "1000000000000000000000000"
+                    }
+                  ],
+                  "percentage": "0.05"
+                },
+                {
+                  "name": "zero",
+                  "min": [
+                    {
+                      "denom": "cin",
+                      "amount": "0"
+                    }
+                  ],
+                  "max": [
+                    {
+                      "denom": "cin",
+                      "amount": "0"
+                    }
+                  ],
+                  "percentage": "0"
+                }
+            ],
+            "assigned_fee": [
+                {
+                  "name": "zero",
+                  "msg_type": "kyc-whitelist"
+                },
+                {
+                  "name": "zero",
+                  "msg_type": "kyc-revokeWhitelist"
+                },
+                {
+                  "name": "zero",
+                  "msg_type": "fee-updateFeeSetting"
+                },
+                {
+                  "name": "zero",
+                  "msg_type": "fee-assignFeeToMsg"
+                },
+                {
+                  "name": "zero",
+                  "msg_type": "fee-updateMultiplier"
+                },
+                {
+                  "name": "zero",
+                  "msg_type": "fee-assignFeeToAcc"
+                }
+            ],
+            "multiplier": "1",
+            "authorised_addresses": [
+                "mxw1ze4de3r5j2hdvrvrp0p4wvks0vqamqdfqwa6r4"
+            ]
+        },
+        "maintenance": {
+            "maintainers": [
+                "mxw16f6dsgrxdk6cfpm9kyz9qdp7v0k2azlrkj95vu",
+                "mxw19mjrf0sxy63evq634u8ylj889c8qf6u6my6qz7",
+                "mxw1ksaecnvy58m2ey8hmmd9rdkdv5876ahg3p4we7",
+                "mxw1ur64py537vfuk5runnpedshppx8plu2cknwasp",
+                "mxw1jrdle8ccjk2pc9crr4veez7d3lzm2f6qzxwgyl"
+            ],
+            "starting_proposal_id" : "1",
+            "validator_set": [
+                "mxwvalconspub1zcjduepqx065gr7wuw20qftdnfzd0qw6hmur82czvlfkrdd4d4ttqtxzaagqwsfugm",
+                "mxwvalconspub1zcjduepqznv88mqmrycdkghjene5atvt9fwsyjpf57nvlrpzzux4l9w3hccsvpkecu",
+                "mxwvalconspub1zcjduepqsaxsv9cuj9dyzxw4yqupkclzxmwt93d6rcj8j903yne7krks6pqqu6psyq",
+                "mxwvalconspub1zcjduepq8nmvd45dl3d05g8w0lu3lc76qz803rpajwdslczhfkpctu90tjwqxruflc",
+                "mxwvalconspub1zcjduepqytmtq30vlkapl9wc5gtzud398u53jfkla5784vkqjvxlkrz57j6syju00g",
+                "mxwvalconspub1zcjduepqc0qnzclvf4965n0mqk4yx8z5fgeuwd6su7es6wfvr053zylcdl2q8pswvk",
+                "mxwvalconspub1zcjduepqryeaqawe6nxerjlp4hv0vjkt5a8a380c6lzzjx9zf3u96ar8pa4qydq8rn",
+                "mxwvalconspub1zcjduepqez7rz3qzav9v94uysn8r6jw28x9nlvukrdzacy96pkklqz3j6l5q9z5zzg"
+            ]
+        },
+        "gentxs": [
+            {"type":"cosmos-sdk/StdTx","value":{"msg":[{"type":"cosmos-sdk/MsgCreateValidator","value":{"description":{"moniker":"alloys_01","identity":"Alloys Identity 01","website":"","security_contact":"","details":"Alloys 01"},"commission":{"rate":"0.100000000000000000","max_rate":"0.200000000000000000","max_change_rate":"0.010000000000000000"},"min_self_delegation":"1","delegator_address":"mxw1gsh3wnxyj327d4rn257fsnfsn67uj40zwmy55a","validator_address":"mxwvaloper1gsh3wnxyj327d4rn257fsnfsn67uj40zk5m2ex","pubkey":"mxwvalconspub1zcjduepqx065gr7wuw20qftdnfzd0qw6hmur82czvlfkrdd4d4ttqtxzaagqwsfugm","value":{"denom":"cin","amount":"100000000000000000000"}}}],"fee":{"amount":[{"denom":"cin","amount":"0"}],"gas":"0"},"signatures":[{"pub_key":{"type":"tendermint/PubKeySecp256k1","value":"AlpPfrP3lpQI4Fx8Pxo+ZQli8Out3HQhTHc5+V0gztk0"},"signature":"pdlzrVG5zcnqhYUZlj+bnh8LKSCt1wT8ti99hpWzHrpyFrGxCfweMqG6dXGkU6H35ZhPmIYKCKYFY7F1acXK/Q=="}],"memo":"358a977b571b8e5b18cc5cab0c4b058478c2eaf3@192.168.20.250:26656"}}
+        ]
+    }
+}
