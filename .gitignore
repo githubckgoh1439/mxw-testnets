@@ -1,0 +1,11 @@
+# tests
+test_scratch/
+*.log
+
+# Temporary / cached
+*.swp
+debug*
+.idea
+.vscode
+
+.DS_Store

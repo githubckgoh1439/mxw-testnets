@@ -93,3 +93,4 @@ Solution : Change this port-number where laddr = "tcp://127.0.0.1:36657" under s
 
 Open browser and enter http://localhost:36657/<br/><br/>
 ** This means that new node already running and try to synch with current Full node !!!
+
