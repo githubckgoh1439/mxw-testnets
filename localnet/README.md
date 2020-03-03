@@ -1,5 +1,4 @@
 
-
 # Install Maxonrow Local Network 
 This guide will go through the steps required to get a Full Node up and running on MAXONROW's local network.<br/>
 It also include the steps for running a Single Node that connect the Full Node.
@@ -95,8 +94,3 @@ Solution : Change this port-number where laddr = "tcp://127.0.0.1:36657" under s
 Open browser and enter http://localhost:36657/<br/><br/>
 ** This means that new node already running and try to synch with current Full node !!!
 
-
-# Future Enhancements
-
-* An installation script will be included, which installs all that is required to start the whole process.
-* Implementation using Dockerfile for this local network deployment.  
